@@ -1,3 +1,5 @@
+# Converter rgb para hexadecimal
+
 ```js
     const rgb = [57, 107, 77]; // cor rgb
     const hex = `#${(((rgb[0] << 16) | (rgb[1] << 8) | rgb[2]) >>> 0)
